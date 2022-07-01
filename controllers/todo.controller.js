@@ -66,7 +66,6 @@ module.exports = {
       if (!task) {
         res.status(400).send({
           success: false,
-          data: err.message,
           message: "task not found",
         });
       }
@@ -102,7 +101,6 @@ module.exports = {
       if (!task) {
         res.status(400).send({
           success: false,
-          data: err.message,
           message: "task not found",
         });
       }
